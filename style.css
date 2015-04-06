@@ -23,7 +23,7 @@ a {
   -webkit-transition: .35s;
 }
 
-.nav > ul > li > a {
+.nav li.primary > a {
   padding: 8px 20px;
   background: #cfcfcf;
   color: #000;
@@ -32,22 +32,22 @@ a {
   border-bottom: 0
 }
 
-.nav > ul > li {
+.nav li.primary {
   position: relative;
 }
 
-.nav > ul > li:hover {
+.nav li.primary:hover {
   border-bottom: 0;
 }
 
-.nav > ul > li:hover > a {
+.nav li.primary:hover > a {
   background: #fff;
   border: 1px solid #000;
   border-bottom: 1px solid #fff;
   color: #8c8c8c;
 }
 
-.nav > ul > li:first-child {
+.nav li.primary:first-child {
   margin-left: 0;
   padding-left: 0
 }
@@ -65,7 +65,7 @@ a {
   display: none;
 }
 
-.nav > ul > li:hover .sub-menu {
+.nav li.primary:hover .sub-menu {
   display: block;
 }
 
@@ -74,7 +74,7 @@ a {
   left: auto;
 }
 
-.nav > ul > li:first-child .sub-menu {
+.nav li.primary:first-child .sub-menu {
   left: 0;
 }
 
