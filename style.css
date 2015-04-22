@@ -61,7 +61,6 @@ a {
   border: 0;
   padding: 17px 10px;
   border: 1px solid #6d6d6d;
-  border-top: 0;
   display: none;
 }
 
@@ -69,9 +68,9 @@ a {
   display: block;
 }
 
-.nav li.last .sub-menu {
-  right: 0;
-  left: auto;
+.nav li.primary .sub-menu {
+  top: 37px;
+  z-index: -1;
 }
 
 .nav li.primary:first-child .sub-menu {
@@ -81,10 +80,12 @@ a {
 .sub-menu a {
   color: #000;
   font-size: 14px;
+  display: block;
+  padding: 3px 0;
  }
 
 .sub-menu a:hover {
-  color: #F61A1A;
+  color: #bd0707;
 } 
 
 .sub-menu li {
